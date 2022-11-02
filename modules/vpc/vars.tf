@@ -13,3 +13,7 @@ variable "cidr_block" {
 variable "subnet_id" {
   default = ""
 }
+
+variable "instance_type" {
+  default = "t2.micro"
+}
