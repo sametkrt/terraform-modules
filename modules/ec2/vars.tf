@@ -1,4 +1,4 @@
-variable "ec2_ami_id" {
+variable "ec2_ami_id_temp" {
   default = "ami-0c3fb0f6023840bc0"
 }
 
