@@ -13,3 +13,8 @@ variable "ec2_instance_tenancy" {
 variable "subnet_id" {
   default = ""
 }
+
+variable "ec2_instance_name" {
+  type        = string
+  description = "The name to give the instance."
+}
