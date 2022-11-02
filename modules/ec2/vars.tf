@@ -1,15 +1,15 @@
-variable "ami_id" {
+variable "ec2_ami_id" {
   default = "ami-0c3fb0f6023840bc0"
 }
 
-variable "instance_type" {
+variable "ec2_instance_type" {
   default = "t2.micro" 
 }
 
-variable "instance_tenancy" {
+variable "ec2_instance_tenancy" {
   default = "default"
 }
 
-variable "instance_type" {
-  default = "t2.micro"
+variable "subnet_id" {
+  default = ""
 }
