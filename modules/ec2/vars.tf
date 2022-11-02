@@ -9,3 +9,7 @@ variable "instance_type" {
 variable "instance_tenancy" {
   default = "default"
 }
+
+variable "instance_type" {
+  default = "t2.micro"
+}
